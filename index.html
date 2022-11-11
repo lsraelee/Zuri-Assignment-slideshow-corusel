@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Slideshow</title>
+</head>
+<body>
+
+    <h1 style="text-align: center;">A Picture Slideshow</h1>
+    <div class="slideshow-container">
+        <div class="myslides fade">
+            <div class="number-text">1/6</div>
+            <img src="./pexels-gabriela-palai-395196.jpg" alt="">
+            <div class="caption">Caption One</div>
+        </div>
+        <div class="myslides fade">
+            <div class="number-text">2/6</div>
+            <img src="./pexels-keegan-houser-1478685.jpg" alt="">
+            <div class="caption">Caption Two</div>
+        </div>
+        <div class="myslides fade">
+            <div class="number-text">3/6</div>
+            <img src="./pexels-lukas-rychvalsky-670720.jpg" alt="">
+            <div class="caption">Caption Three</div>
+        </div>
+        <div class="myslides fade">
+            <div class="number-text">4/6</div>
+            <img src="./pexels-sebastiaan-stam-1097456.jpg" alt="">
+            <div class="caption">Caption Four</div>
+        </div>
+        <div class="myslides fade">
+            <div class="number-text">5/6</div>
+            <img src="./pexels-sebastiaan-stam-1480690.jpg" alt="">
+            <div class="caption">Caption Five</div>
+        </div>
+        <div class="myslides fade">
+            <div class="number-text">6/6</div>
+            <img src="./pexels-sebastiaan-stam-1482476.jpg" alt="">
+            <div class="caption">Caption Six</div>
+        </div>
+
+        <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div class="span">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
